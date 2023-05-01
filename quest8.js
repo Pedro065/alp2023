@@ -1,0 +1,13 @@
+let n1= Number(prompt("Digite um numero "));
+let n2= Number(prompt("Digite um numero "));
+let soma=n1+n2;
+let subitracao=n1-n2;
+let multiplicacao=n1*n2;
+let divisao=n1/n2;
+document.write(`A soma dos numeros é ${soma}`);
+document.write("<br>");
+document.write(`A subitração dos numeros é ${subitracao}`);
+document.write("<br>");
+document.write(`A mutiplicação dos numeros é ${multiplicacao}`);
+document.write("<br>");
+document.write(`A divisão dos numeros é ${divisao}`);
